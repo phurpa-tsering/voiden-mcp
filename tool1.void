@@ -37,7 +37,7 @@ content:
     attrs:
       uid: 90d19528-1a9a-480d-b310-eb114a27ff29
       rows:
-        - filePath: /Users/phurpatsering/Voiden/server-tool/firstrequest.void
+        - filePath: firstrequest.void
           sectionLabel: ""
           role: happy-path
           cadence: first
