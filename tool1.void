@@ -42,7 +42,7 @@ content:
           role: happy-path
           cadence: hourly
           mode: live
-          onFailure: advertise-degraded
+          onFailure: withdraw
 ---
 ```
 %%EMPTY_LINE%%
