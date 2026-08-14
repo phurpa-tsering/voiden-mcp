@@ -28,8 +28,6 @@ content:
     content: https://echo.voiden.md
 ---
 ```
-%%EMPTY_LINE%%
-
 ```void
 ---
 type: headers-table
@@ -77,3 +75,23 @@ attrs:
 ---
 ```
 %%EMPTY_LINE%%
+
+%%EMPTY_LINE%%
+
+```void
+---
+type: runtime-variables
+attrs:
+  uid: 7cc02b8d-238b-4d00-a42c-3d247a2a9f67
+  importedFrom: ""
+content:
+  - type: table
+    rows:
+      - attrs:
+          disabled: false
+        row:
+          - sss
+          - "{{$res.body.path}}"
+          - null
+---
+```

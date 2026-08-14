@@ -14,8 +14,9 @@ attrs:
   uid: 2a12b4c9-ee44-4c20-b5f8-b7aca7407a71
   name: echo_voiden
   title: Echo Voiden
-  description: Check if voiden works or not
-  annotations: {}
+  description: Check if echo voiden site works or not
+  annotations:
+    destructiveHint: false
   requestUid: ""
   enabled: true
   requestFilePath: firstrequest.void

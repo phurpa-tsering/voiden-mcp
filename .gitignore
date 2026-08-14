@@ -5,3 +5,5 @@
 .voiden-inherited.void
 .voiden/**
 .voiden/history/firstrequest-94749294-history.json
+.voiden
+.voiden/.process.env.json
