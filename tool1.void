@@ -19,8 +19,8 @@ attrs:
     destructiveHint: false
   requestUid: ""
   enabled: true
-  requestFilePath: firstrequest.void
-  requestSectionLabel: ""
+  requestFilePath: ""
+  requestSectionLabel: null
   pluginId: voiden-mcp-tool
   pluginVersion: 0.1.0
 content:
@@ -37,13 +37,29 @@ content:
   - type: toolverifies
     attrs:
       uid: 90d19528-1a9a-480d-b310-eb114a27ff29
-      rows:
-        - filePath: firstrequest.void
-          sectionLabel: ""
-          role: happy-path
-          cadence: hourly
-          mode: live
-          onFailure: withdraw
+      rows: []
 ---
 ```
 %%EMPTY_LINE%%
+
+```void
+---
+type: request
+attrs:
+  uid: 389bd6af-0cd3-453b-a4c7-501aa5dad2dc
+  pluginId: voiden-rest-api
+  pluginVersion: 1.4.8
+content:
+  - type: method
+    attrs:
+      uid: 71b8a42f-261f-4492-adbd-72cdf29bf1b3
+      method: GET
+      importedFrom: ""
+      visible: true
+    content: GET
+  - type: url
+    attrs:
+      uid: 51918bc6-e3b0-4f8a-b211-4fb7956bc83b
+    content: https://echo.voiden.md
+---
+```
