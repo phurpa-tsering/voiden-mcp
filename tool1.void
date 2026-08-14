@@ -32,7 +32,7 @@ content:
           binds: test
           type: string
           required: true
-          description: This is key 1
+          description: "Header: key"
           source: agent
   - type: toolverifies
     attrs:
@@ -40,8 +40,6 @@ content:
       rows: []
 ---
 ```
-%%EMPTY_LINE%%
-
 ```void
 ---
 type: request
@@ -61,5 +59,24 @@ content:
     attrs:
       uid: 51918bc6-e3b0-4f8a-b211-4fb7956bc83b
     content: https://echo.voiden.md
+---
+```
+```void
+---
+type: headers-table
+attrs:
+  uid: d6447e92-b20b-4a5c-9fe6-bd3b034b9fef
+  importedFrom: ""
+  pluginId: voiden-rest-api
+  pluginVersion: 1.4.8
+content:
+  - type: table
+    rows:
+      - attrs:
+          disabled: false
+        row:
+          - key
+          - "{{test}}"
+          - null
 ---
 ```
