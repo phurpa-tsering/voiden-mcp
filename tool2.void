@@ -30,7 +30,7 @@ content:
     attrs:
       uid: 0320d72e-b572-4d06-8bc1-b5f35eae9a1e
       rows:
-        - filePath: second.void
+        - filePath: firstrequest.void
           sectionLabel: ""
           role: happy-path
           cadence: hourly

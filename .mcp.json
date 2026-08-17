@@ -1,8 +1,9 @@
 {
   "mcpServers": {
     "voiden-mcp": {
-      "command": "voiden",
+      "command": "node",
       "args": [
+        "/Users/phurpatsering/Desktop/Voiden/voiden/apps/electron/.vite/build/voiden-cli.js",
         "mcp-stdio",
         "/Users/phurpatsering/Voiden/server-tool"
       ]

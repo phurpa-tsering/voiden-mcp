@@ -45,18 +45,6 @@ content:
           - key
           - value
           - null
-      - attrs:
-          disabled: false
-        row:
-          - key1
-          - "{{test}}"
-          - This is key 1
-      - attrs:
-          disabled: false
-        row:
-          - null
-          - null
-          - null
 ---
 ```
 %%EMPTY_LINE%%
